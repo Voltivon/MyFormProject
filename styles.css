@@ -1,0 +1,141 @@
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-image: url(https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  
+  margin: 0;
+  padding: 0;
+}
+
+.column-1 {
+  display: flex;
+ 
+  position: relative;
+  margin-left: -8px;
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+ 
+  width: 100%;
+  background-color: white;
+}
+
+.header > p {
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+}
+
+.hero-banner {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-banner > h1 {
+  font-size: 4rem;
+  color: white;
+  opacity: 80%;
+}
+
+.form {
+  box-shadow: 10px 5px 5px black;
+  height: 40vh;
+}
+
+.form-section-1 {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  
+  float: left;
+  padding: 30px;
+  font-size: 1.5rem;
+  margin: 35px;
+}
+
+.form-section-2 {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  float: left;
+  padding: 30px;
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+.form-footer {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+input {
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+}
+
+.form-footer > p {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-footer > button {
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 40px;
+  width: fit-content;
+  height: 225px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: -50px;
+ 
+}
+
+a{
+  padding-left: 8px;
+  color: blue;
+  cursor: pointer;
+}
+
+
+
+ 
